@@ -1,0 +1,105 @@
+
+.nav-link {
+    color: #0d6efd !important;
+    text-decoration: none;
+}
+.nav-item a {
+    display: inline-block;
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+.nav-item a.active {
+    color: white !important;
+    background-color: #0d6efd;
+}
+.ar-bg {
+    background: linear-gradient(90deg, #ff7300, #ffa600);
+    min-height: 100vh;
+    width: 50%;
+    position: absolute;
+
+}
+.game-bg {
+    background: radial-gradient(circle, #003333, #001111);
+    min-height: 100vh;
+    width: 50%;
+    position: absolute;
+}
+
+.mobile-app-bg {
+    background: radial-gradient(circle, rgba(255, 165, 79, 1) 0%, rgba(255, 228, 196, 1) 100%);
+    min-height: 170vh;
+    width: 50%;
+    position: absolute;
+}
+.mobile-app2-bg {
+    background: linear-gradient(180deg, #F4B400, #E09400);
+    
+    min-height: 100vh;
+    width: 50%;
+    position: absolute;
+    top: 100%;
+}
+.design-bg {
+    background: linear-gradient(to bottom, #0A233E, #132743);
+    min-height: 100vh;
+    width: 50%;
+    position: absolute;
+}
+
+.imge {
+    position: fixed;
+        width: 650px;
+        top: 25%;
+        left: 5%;
+        height: auto;
+        overflow: hidden;
+}
+
+.imge2 {
+    position: absolute;
+        width: 650px;
+        top: 0%;
+        left: 5%;
+        height: auto;
+        overflow: hidden;
+}
+.text {
+    font-family: proximanova, sans-serif;
+    margin-left: 50%;
+    padding: 45px;
+    overflow-y: auto;
+    padding-top: 15%;
+}
+        
+
+.text2 {
+    font-family: proximanova, sans-serif;
+    margin-left: 50%;
+    padding: 45px;
+    overflow-y: auto;
+    padding-top: 35%;
+}
+
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-os-font-smoothing: grayscale;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    vertical-align: baseline;
+}
+
+.scrollHalf__grupo__imagen {
+    overflow: hidden;
+}
+.scrollHalf {
+    position: relative;
+    overflow: hidden;
+}
+.scrollHalf__grupo {
+    position: relative;
+    min-height: 100vh;
+}
